@@ -1,0 +1,3 @@
+192.168.250.10 - - [26/Mar/2025:22:48:39 +0000] "GET / HTTP/1.1" 429 198 "-" "Go-http-client/1.1" "WCAP: L7 attack mitigated by behavioral analysis and dynamic challenge"
+192.168.250.10 - - [26/Mar/2025:22:48:39 +0000] "SYN / HTTP/1.1" 403 0 "-" "Go-http-client/1.1" "WCAP: SYN flood detected and rate-limited with connection filtering"
+192.168.250.10 - - [26/Mar/2025:22:48:39 +0000] "NTP /ntp/ HTTP/1.1" 403 210 "-" "Go-http-client/1.1" "WCAP: UDP amplification blocked via protocol validation + anomaly scoring"

@@ -1,0 +1,15 @@
+RELATÓRIO DE COMPARAÇÃO WCAP vs WAF TRADICIONAL (Monitoramento e Resposta)
+---------------------------------------------------------------
+1. Acesso sem MFA:
+- WAF Tradicional: Permitiu acesso à área administrativa sem verificação adicional.
+- WCAP: Bloqueou com base em ausência de MFA e origem IP suspeita.
+
+2. Endpoint obscuro explorado:
+- WAF Tradicional: Endpoint passou despercebido por não estar mapeado.
+- WCAP: Detectou acesso incomum via fingerprinting e bloqueou.
+
+3. Tentativa de evasão de logs:
+- WAF Tradicional: Nenhuma correlação ou alerta gerado.
+- WCAP: Alerta acionado e requisição bloqueada por correlação com padrões de ataque.
+
+Resultado Geral: WCAP oferece visibilidade, correlação de eventos e resposta automatizada superior frente a WAFs tradicionais.

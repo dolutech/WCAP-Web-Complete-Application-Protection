@@ -1,0 +1,15 @@
+RELATÓRIO DE COMPARAÇÃO WCAP vs WAF TRADICIONAL (Phishing e E-mail)
+---------------------------------------------------------------
+1. Spoofing de Remetente:
+- WAF Tradicional: Não verificou SPF/DKIM/DMARC, permitiu spoofing.
+- WCAP: Rejeitou com base em falha de autenticação de remetente.
+
+2. Link de Phishing:
+- WAF Tradicional: Aceitou e-mail sem inspecionar URLs.
+- WCAP: Detectou link malicioso por feed de ameaça e bloqueou.
+
+3. Anexo Malicioso:
+- WAF Tradicional: Aceitou arquivo JavaScript perigoso.
+- WCAP: Bloqueou com base em assinatura de malware.
+
+Resultado Geral: WCAP implementa inspeção profunda e validações nativas de segurança para e-mails, enquanto o WAF tradicional não atua nesse vetor.

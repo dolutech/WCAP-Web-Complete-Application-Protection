@@ -1,0 +1,15 @@
+RELATÓRIO DE COMPARAÇÃO WCAP vs WAF TRADICIONAL (Orquestração e Automação)
+---------------------------------------------------------------
+1. Upload suspeito com exploração:
+- WAF Tradicional: Requisição aceita, exigiu análise manual posterior.
+- WCAP: Bloqueio imediato + resposta orquestrada (IP bloqueado, SOC notificado).
+
+2. Evasão por user-agent:
+- WAF Tradicional: Requisição passou sem detecção de comportamento anômalo.
+- WCAP: Detecção de anomalia + execução de playbook de contenção.
+
+3. Credenciais comprometidas:
+- WAF Tradicional: Permitiu login sem validação externa.
+- WCAP: Detectou credencial em feed de ameaça e bloqueou automaticamente.
+
+Resultado Geral: WCAP demonstra capacidade de reação em tempo real com ações automatizadas e integração nativa com sistemas SOAR.

@@ -1,0 +1,3 @@
+45.33.32.156 - - [26/Mar/2025:22:58:15 +0000] "POST /api/v2/upload HTTP/1.1" 403 250 "-" "curl/8.1.2" "WCAP: Blocked + automatic SOAR trigger: session invalidated, IP blocked, SOC alerted"
+45.33.32.156 - - [26/Mar/2025:22:58:15 +0000] "GET /panel HTTP/1.1" 403 220 "-" "HackedAgent/1.0" "WCAP: Blocked + auto-playbook initiated: risk flagged, reauthentication forced"
+45.33.32.156 - - [26/Mar/2025:22:58:15 +0000] "POST /auth/login HTTP/1.1" 403 210 "-" "curl/8.1.2" "WCAP: Login blocked: credentials flagged in CTI + session revoked automatically"

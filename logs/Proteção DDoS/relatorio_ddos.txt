@@ -1,0 +1,15 @@
+RELATÓRIO DE COMPARAÇÃO WCAP vs WAF TRADICIONAL (Mitigação de DDoS)
+---------------------------------------------------------------
+1. HTTP Flood (Camada 7):
+- WAF Tradicional: Permitiu sobrecarga até indisponibilidade (HTTP 503).
+- WCAP: Mitigou comportamento anômalo com políticas de resposta adaptativa (HTTP 429).
+
+2. TCP SYN Flood (Camada 4):
+- WAF Tradicional: Não possui mecanismo nativo para mitigação L4.
+- WCAP: Aplicou filtragem e limitação de conexões simultâneas com base no protocolo.
+
+3. UDP Amplification:
+- WAF Tradicional: Ignorou protocolo UDP/NTP.
+- WCAP: Detectou e bloqueou tentativa de amplificação com análise contextual.
+
+Resultado Geral: WCAP aplica mitigação nas camadas L4 e L7 com inteligência adaptativa, enquanto o WAF tradicional apresenta limitações em camadas inferiores e ataques volumétricos.

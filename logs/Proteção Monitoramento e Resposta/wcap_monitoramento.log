@@ -1,0 +1,3 @@
+10.1.2.3 - - [26/Mar/2025:22:52:09 +0000] "POST /admin HTTP/1.1" 403 210 "-" "Mozilla/5.0 (Linux; Android 11)" "WCAP: Blocked admin access, MFA required + GeoIP mismatch"
+10.1.2.3 - - [26/Mar/2025:22:52:09 +0000] "GET /hidden-api/config?debug=true HTTP/1.1" 403 170 "-" "Mozilla/5.0 (Linux; Android 11)" "WCAP: Anomaly detected, blocked based on request fingerprint"
+10.1.2.3 - - [26/Mar/2025:22:52:09 +0000] "POST /login HTTP/1.1" 403 205 "-" "Mozilla/5.0 (Linux; Android 11)" "WCAP: Alert triggered, correlation matched failed logins + obfuscated user-agent"

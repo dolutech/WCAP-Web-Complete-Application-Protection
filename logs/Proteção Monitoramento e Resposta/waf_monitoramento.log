@@ -1,0 +1,3 @@
+10.1.2.3 - - [26/Mar/2025:22:52:09 +0000] "POST /admin HTTP/1.1" 200 1024 "-" "Mozilla/5.0 (Linux; Android 11)" "WAF: Admin access granted, MFA not enforced"
+10.1.2.3 - - [26/Mar/2025:22:52:09 +0000] "GET /hidden-api/config?debug=true HTTP/1.1" 200 512 "-" "Mozilla/5.0 (Linux; Android 11)" "WAF: Endpoint not monitored, allowed"
+10.1.2.3 - - [26/Mar/2025:22:52:09 +0000] "POST /login HTTP/1.1" 200 400 "-" "Mozilla/5.0 (Linux; Android 11)" "WAF: Login allowed, no alert generated"

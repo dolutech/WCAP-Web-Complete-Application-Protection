@@ -1,0 +1,15 @@
+RELATÓRIO DE COMPARAÇÃO WCAP vs WAF TRADICIONAL
+-----------------------------------------------
+1. SQL Injection:
+- WAF Tradicional: Detectou padrão, bloqueio baseado em assinatura.
+- WCAP: Detectou via correlação com comportamento anômalo de login.
+
+2. XSS:
+- WAF Tradicional: Permitiu payload XSS, sem inspeção de script.
+- WCAP: Bloqueou com filtro contextual de entrada de dados.
+
+3. LFI:
+- WAF Tradicional: Bloqueio básico por padrão de path traversal.
+- WCAP: Análise de contexto do recurso acessado e bloqueio inteligente.
+
+Resultado Geral: WCAP demonstrou capacidades avançadas de proteção com base em contexto, enquanto WAF tradicional se limitou a padrões fixos.

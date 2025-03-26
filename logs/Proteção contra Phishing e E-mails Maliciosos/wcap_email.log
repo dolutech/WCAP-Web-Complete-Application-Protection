@@ -1,0 +1,3 @@
+203.0.113.90 - - [26/Mar/2025:22:54:50 +0000] "MAIL FROM spoofed@bank.com SMTP/1.0" 550 0 "-" "Thunderbird/102.6.0" "WCAP: Rejected - SPF/DKIM/DMARC failed (sender spoofing detected)"
+203.0.113.90 - - [26/Mar/2025:22:54:50 +0000] "RCPT TO user@empresa.com SMTP/1.0" 550 0 "-" "Thunderbird/102.6.0" "WCAP: Email blocked - phishing link matched threat feed"
+203.0.113.90 - - [26/Mar/2025:22:54:50 +0000] "DATA attachment=invoice.js SMTP/1.0" 554 0 "-" "Thunderbird/102.6.0" "WCAP: Blocked - attachment matched malware signature (JS Trojan)"

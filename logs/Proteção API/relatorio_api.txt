@@ -1,0 +1,15 @@
+RELATÓRIO DE COMPARAÇÃO WCAP vs WAF TRADICIONAL (Proteção de APIs)
+---------------------------------------------------------------
+1. Brute Force em Autenticação:
+- WAF Tradicional: Bloqueou por IP após limite fixo de requisições.
+- WCAP: Detectou padrão de ataque baseado em comportamento e histórico, bloqueio contextual.
+
+2. JWT Token Manipulado:
+- WAF Tradicional: Ignorou a integridade do token e permitiu acesso.
+- WCAP: Detectou assinatura inválida e claims alterados, bloqueio imediato.
+
+3. Rate Limiting:
+- WAF Tradicional: Aplicou limitação genérica por IP.
+- WCAP: Aplicou limitação dinâmica adaptada por usuário, geolocalização e horário.
+
+Resultado Geral: WCAP apresenta proteção granular, contextual e dinâmica, com foco em APIs modernas.

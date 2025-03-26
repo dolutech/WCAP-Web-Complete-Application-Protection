@@ -1,0 +1,3 @@
+192.168.200.20 - - [26/Mar/2025:22:44:28 +0000] "POST /api/v1/auth/login HTTP/1.1" 403 342 "-" "PostmanRuntime/7.36.1" "WAF: Rate limited by IP (5 req/min)"
+192.168.200.20 - - [26/Mar/2025:22:44:28 +0000] "GET /api/v1/user/profile HTTP/1.1" 200 1024 "-" "PostmanRuntime/7.36.1" "WAF: Token not inspected, request allowed"
+192.168.200.20 - - [26/Mar/2025:22:44:28 +0000] "GET /api/v1/public/data HTTP/1.1" 429 212 "-" "PostmanRuntime/7.36.1" "WAF: IP rate limit exceeded (static threshold)"
