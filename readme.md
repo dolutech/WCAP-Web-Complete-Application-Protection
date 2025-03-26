@@ -72,7 +72,9 @@ Este conceito é **livre, aberto e colaborativo**. A comunidade está convidada 
 
 ## 👨‍💻 Autor
 
-Conceito criado por **[Lucas Catão de Moraes]**.
+Conceito criado por **Lucas Catão de Moraes**. Saiba mais em:
+- 🌐 [https://cataodemoraes.com](https://cataodemoraes.com)
+- 📘 Blog: [https://dolutech.com](https://dolutech.com)
 
 ---
 
