@@ -7,6 +7,11 @@ Este repositório contém o **whitepaper oficial**, **documentação técnica**,
 
 ---
 
+## Versões:
+- Versão 0.1 - Lançado em 03 Março de 2025.
+- Versão 0.2 - Versão Universão em Inglês com melhorias e fontes, Lançado em 23 de Abril de 2025.
+---
+
 ## 📄 Whitepaper
 
 O whitepaper explica:
@@ -27,6 +32,7 @@ O whitepaper explica:
 ```
 ├── whitepaper/
 │   └── WCAP_Whitepaper_v0.1.pdf
+│   └── WCAP_Whitepaper v0.2 EN Version.pdf
 ├── logs/
 │   ├── *.log
 │   └── relatorio_*.txt
